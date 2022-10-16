@@ -350,13 +350,14 @@ footer{
     header{
         display: flex;
         flex-direction: column;
-        padding-top:10px;
-        width: 100%;
+        border-bottom: none;
+        padding: 1px;
+        margin-bottom: 80px;
     }
 
     .title{
-        display: flex;
-        margin: 30px;
+        padding: 12px 20px;
+        margin: 0;
     }
 
     .name_head{
@@ -365,15 +366,26 @@ footer{
 
     .opt-header{
         display: flex;
+        flex-direction: row;
         align-items: center;
-        margin: 12px;    
+        margin: 4px;
+        padding: 8px; 
+    }
+
+    .icon{
+        padding: 6px;
+        align-items: center;
     }
 
     #inscrever{
-        margin: 2px;
-        transform: translate(-340px, 90%);
-        padding: 5px 30%;
+        margin: 12px;
+        transform: translate(-355px, 150%);
+        padding: 4% 10%;
         width: 100%;
+        text-align: center;
+        letter-spacing: 2px;
+        white-space: nowrap;
+        font-weight: bolder;
     }
 
     .checkbox .trace{
@@ -406,10 +418,14 @@ footer{
     .conteudo{
         display: flex;  
         flex-direction: column;
+        border-top: 1px solid white ;
+        padding-top: 50px;
+        
     }
 
     .main-title{
         font-size: 24px;
+
     }
     
     .sub-title-main{
@@ -417,13 +433,26 @@ footer{
     }
 
     .cont-main{
-        margin: 10px;
+        margin: 20px;
         text-align: center;
         font-size: 14px;
     }
 
     .formulario{
         width: 100%;
+    }
+
+    footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #img-foot{
+        width: 50%;
+        top: 10px;
+        left: 10px;
+        transform: translate(45%, 25%);
     }
     
 }
